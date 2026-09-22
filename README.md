@@ -116,6 +116,8 @@ hotfix 就是为「老固件越狱后升到 5.6.x」的场景设计的，装完�
 | 根目录安装包开机后消失 | 开机流程验签失败后静默删除 | 同上 |
 | `;log mrpi` 无反应 | 搜索栏钩子在老固件上未挂载 | 升回 5.6.1.1 后即生效 |
 | macOS 弹不出 Kindle 卷 | Spotlight 索引占用 | `diskutil unmount force`，或 sync 后强制弹出 |
+| KOReader 文件浏览器显示目录 0 文件 | 默认隐藏不支持格式；KOReader 不支持 azw3（mobi 支持但需无 DRM） | azw3 用 Calibre 转 epub；亚马逊商店买的带 DRM 转不了 |
+| Apple Books 拖出的 epub 放进 Kindle 打不开 | Books 导出的是解包文件夹（含 iTunesMetadata.plist），不是单文件 | 按 epub 规范重新打包：mimetype 首项不压缩，剔除 iTunes 元数据 |
 
 ## 微信读书的 epub 缓存
 
