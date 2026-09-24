@@ -1,5 +1,7 @@
 # Kindle Paperwhite 1 (2012) 复活记：越狱 + KOReader + 微信读书
 
+**中文** | [English](README.en.md)
+
 一台 2012 年的 Kindle Paperwhite 一代，深度亏电放了几年。现在它跑着最新版 KOReader，在线读微信读书，本地读自己的 epub。
 
 本仓库记录完整流程和踩坑。只有文档，不含任何固件或越狱文件，下载源全部指向官方渠道。
